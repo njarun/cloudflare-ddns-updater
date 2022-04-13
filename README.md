@@ -39,11 +39,11 @@ sudo -u www-data crontab -e
 ```
 
 ## What it does
-The script pulls the current public IP of the machine using the AWS API `https://checkip.amazonaws.com`
-Enter your zone/domains add them to the associated array `zoneMap`. You can have multiple zones and domains, thats why we use the associated array.
-The script iterates through the zone and finds the zone id 
-Then it loops throght the domain names and fetches the current Ip
-If the dns IP and public IP are different, then it updates the DNS IP address in the cloudflare.
+> The script pulls the current public IP of the machine using the AWS API `https://checkip.amazonaws.com`
+> Enter your zone/domains add them to the associated array `zoneMap`. You can have multiple zones and domains, thats why we use the associated array.
+> The script iterates through the zone and finds the zone id 
+> Then it loops throght the domain names and fetches the current Ip
+> If the dns IP and public IP are different, then it updates the DNS IP address in the cloudflare.
 
 ## Note:
 **If your A record is not cloudflare proxied, change proxied: false in the IP update API**
