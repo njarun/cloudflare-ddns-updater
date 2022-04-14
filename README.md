@@ -47,4 +47,4 @@ sudo -u www-data crontab -e
 
 ## Note:
 **If your A record is not cloudflare proxied, change proxied: false in the IP update API**
-
+**Also make necessary changes if you need IPv6 support.**
