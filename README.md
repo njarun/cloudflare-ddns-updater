@@ -46,5 +46,5 @@ sudo -u www-data crontab -e
 - If the dns IP and public IP are different, then it updates the DNS IP address in the cloudflare.
 
 ## Note:
-**If your A record is not cloudflare proxied, change proxied: false in the IP update API**
-**Also make necessary changes if you need IPv6 support.**
+- **If your A record is not cloudflare proxied, change proxied: false in the IP update API**
+- **Also make necessary changes if you need IPv6 support.**
